@@ -2,7 +2,7 @@ import { HttpService } from '@nestjs/axios';
 import { Injectable } from '@nestjs/common';
 import { AxiosResponse } from 'axios';
 import { Observable } from 'rxjs';
-import { TypeSearch } from './types';
+import { TypeSearch } from '../types';
 
 @Injectable()
 export class AppService {

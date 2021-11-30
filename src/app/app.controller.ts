@@ -10,7 +10,7 @@ import {
 import { AxiosResponse } from 'axios';
 import { Observable } from 'rxjs';
 import { AppService } from './app.service';
-import { TypeSearch } from './types';
+import { TypeSearch } from '../types';
 
 @Controller()
 export class AppController {
